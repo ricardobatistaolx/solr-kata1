@@ -1,0 +1,22 @@
+{
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricardo Batista",
+            "email": "ricardo.batista@olx.com",
+            "homepage": "https://github.com/nihildacta",
+            "role": "Sensei"
+        }
+    ],
+    "require" : {
+        "nikic/fast-route": "*",
+        "symfony/http-foundation": "v3.3.*",
+        "twig/twig" : "^2.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SolrKata\\": "src/"
+        }
+    }
+}
