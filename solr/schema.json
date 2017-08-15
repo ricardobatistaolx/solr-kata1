@@ -1,0 +1,62 @@
+{
+    "add-field": {
+        "name" : "title",
+        "type" : "text_general",
+        "stored" : true
+    },
+    "add-field": {
+        "name" : "maker",
+        "type" : "string",
+        "stored" : true
+    },
+    "add-field": {
+        "name" : "model",
+        "type" : "string",
+        "stored" : true
+    },
+    "add-field": {
+        "name" : "serie",
+        "type" : "string",
+        "stored" : true
+    },
+    "add-field": {
+        "name" : "fuel_type",
+        "type" : "string",
+        "stored" : true
+    },
+    "add-field": {
+        "name" : "mileage",
+        "type" : "tint",
+        "stored" : true
+    },
+    "add-field": {
+        "name" : "color",
+        "type" : "string",
+        "stored" : true
+    },
+    "add-field": {
+        "name" : "price",
+        "type" : "tint",
+        "stored" : true
+    },
+    "add-field": {
+        "name" : "currency",
+        "type" : "string",
+        "stored" : true
+    },
+    "add-field": {
+        "name" : "used",
+        "type" : "string",
+        "stored" : true
+    },
+    "add-field": {
+        "name" : "description",
+        "type" : "text_general",
+        "stored" : true
+    },
+    "add-field": {
+        "name" : "valid_to",
+        "type" : "tdate",
+        "stored" : true
+    }
+}
