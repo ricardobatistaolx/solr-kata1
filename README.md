@@ -10,8 +10,8 @@ Esta aplicacao em php utiliza o Solr como repositorio de informacao.
 
 - Sorl
     * [solr admin](http://localhost:8983/solr/#/carscore/query)
-    * [solr rows](http://localhost:8983/solr/carscore/browse)
     * [solr queries](http://lucene.apache.org/solr/guide/6_6/common-query-parameters.html)
+    * [solr querie operators] (http://lucene.apache.org/solr/guide/6_6/the-standard-query-parser.html#TheStandardQueryParser-DifferencesbetweenLuceneQueryParserandtheSolrStandardQueryParser)
     * [solr facets](http://lucene.apache.org/solr/guide/6_6/faceting.html#faceting)
     * [solr facet example](http://yonik.com/solr-facet-functions/)
 
