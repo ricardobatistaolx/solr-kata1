@@ -29,8 +29,8 @@ Esta aplicacao em php utiliza o Solr como repositorio de informacao.
 
 ## Step 1
 
-> E necessario criar uma funcao que data uma string deve fazer uma query ao
-solr e retornar apenas um array contendo os resultados que contem a string em algum dos campos.
+> É necessário criar uma função que dada uma string deve fazer uma query ao
+solr e retornar apenas um array contendo dos resultados.
 
 Input:
 
@@ -45,6 +45,7 @@ Output:
 Queremos apenas mostrar o title, maker, model, price, valid_to.
 
 Input:
+    
     "BMW"
 
 Output:
@@ -52,9 +53,10 @@ Output:
 
 ## Step 3
 
-> Queremos juntar aos resultados o numero de linhas encontradas
+> Queremos juntar aos resultados o número de linhas encontradas
 
 Input:
+    
     "BMW"
 
 Output:
@@ -62,10 +64,11 @@ Output:
 
 ## Step 4
 
-> Queremos juntar paginacao ao nosso motor de busca. Vamos alterar a funcao e
-query de forma a que possa receber a pagina e numero de linhas a mostrar.
+> Queremos juntar paginação ao nosso motor de busca. Vamos alterar a função e
+query de forma a que possa receber a pagina e número de linhas a mostrar.
 
 Input:
+    
     "BMW"
 
 Output:
@@ -73,10 +76,11 @@ Output:
 
 ## Step 5
 
-> Queremos dar a possiblidade de deixar os utilizadores procurarem por varias palavras no texto
+> Queremos dar a possibilidade de deixar os utilizadores procurarem por varias palavras no texto
 sem que se tenham de preocupar com a sua ordem.
 
 Input:
+    
     "BMW EfficientDynamics"
 
 Output:
@@ -86,25 +90,28 @@ Output:
 > Queremos que as palavras da pesquisa estejam apenas no maximo a 1 palavra de distancia uma da outra.
 
 Input:
-    ""BMW EfficientDynamics"
+    
+    "BMW EfficientDynamics"
 
 Output:
 
 ## Step 7
 
-> Queremos dar a possiblidade aos utilizadores para pesquisar por ranges de precos.
+> Queremos dar a possibilidade aos utilizadores para pesquisar por ranges de preços.
 
 Input:
-    "BMW"
+    
+    "BMW", 10000, 30000
 
 Output:
 
 
 ## Step 8
 
-> Queremos mostrar a media dos precos encontrados nos resultados.
+> Queremos mostrar a média dos preços encontrados nos resultados.
 
 Input:
+    
     "BMW"
 
 Output:
@@ -112,10 +119,11 @@ Output:
 
 ## Step 9
 
-> Queremos dar a possiblidade aos utilizadores de ordenar por qualquer um dos campos.
+> Queremos dar a possibilidade aos utilizadores de ordenar por qualquer um dos campos.
 
 Input:
-    "BMW"
+    
+    "BMW", "title", "asc"
 
 Output:
 
