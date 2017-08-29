@@ -73,7 +73,7 @@ query de forma a que possa receber a pagina e numero de linhas a mostrar.
 
 Input:
 
-    "BMW", 10, 100
+    "BMW", 2, 5
 
 Output:
 
@@ -110,7 +110,7 @@ Output:
 
 Input:
 
-    "BMW", 100, 1000
+    "BMW", null, null, 100, 1000
 
 Output:
 
@@ -135,7 +135,7 @@ Output:
 
 Input:
 
-    "BMW", "title", "asc"
+    BMW", null, null, null, null, "title", "asc"
 
 Output:
 

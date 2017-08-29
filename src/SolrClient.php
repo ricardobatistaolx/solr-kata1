@@ -18,8 +18,15 @@ class SolrClient
 
     public function makeQuery(string $input): array
     {
-        $response = $this->client->get("?q=$input&wt=json");
+        $response = $this->client->get(
+            "?q=$input&wt=json"
+        );
+
         $result = $response->getBody()->getContents();
-        var_dump(json_decode($result, true));
+        $arrayResults = json_decode($result, true);
+
+        return [
+            "results" => $arrayResults["response"]["docs"],
+        ];
     }
 }
