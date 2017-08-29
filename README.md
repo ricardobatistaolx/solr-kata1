@@ -1,8 +1,8 @@
 # Improve search challenge
 
-Neste desafio vamos adicionar um campo de  pesquisa a uma aplicacao web.
+Neste desafio vamos adicionar um campo de pesquisa a uma aplicação web.
 
-Esta aplicacao em php utiliza o Solr como repositorio de informacao.
+Esta aplicação em php utiliza o Solr como repositório de informação.
 
 ---
 
@@ -29,8 +29,8 @@ Esta aplicacao em php utiliza o Solr como repositorio de informacao.
 
 ## Step 1
 
-> E necessario criar uma funcao que data uma string deve fazer uma query ao
-solr e retornar apenas um array contendo os resultados que contem a string em algum dos campos.
+> E necessário criar uma função que data uma string deve fazer uma query ao
+solr e retornar apenas um array contendo os resultados que contêm a string em algum dos campos.
 
 Input:
 
@@ -106,7 +106,7 @@ Output:
 
 ## Step 7
 
-> Queremos dar a possiblidade aos utilizadores para pesquisar por ranges de precos.
+> Queremos dar a possiblidade aos utilizadores para pesquisar por ranges de preços.
 
 Input:
 
