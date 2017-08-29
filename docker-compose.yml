@@ -4,9 +4,3 @@ services:
         build: ./solr/
         ports:
             - 8983:8983
-    webapp:
-        image: php:apache
-        ports:
-            - 80:80
-        volumes:
-            - .:/var/www/html/
