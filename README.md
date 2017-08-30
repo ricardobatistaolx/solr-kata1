@@ -8,7 +8,7 @@ Esta aplicação em php utiliza o Solr como repositório de informação.
 
 ## Helpers
 
-- Sorl
+- Solr
     * [solr admin](http://localhost:8983/solr/#/carscore/query)
     * [solr queries](http://lucene.apache.org/solr/guide/6_6/common-query-parameters.html)
     * [solr querie operators](http://lucene.apache.org/solr/guide/6_6/the-standard-query-parser.html#TheStandardQueryParser-DifferencesbetweenLuceneQueryParserandtheSolrStandardQueryParser)
@@ -98,7 +98,7 @@ Output:
 
 Input:
 
-    "BMW EfficientDynamics"
+    "BMW d"
 
 Output:
 
