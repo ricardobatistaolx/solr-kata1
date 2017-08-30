@@ -25,8 +25,6 @@ class SolrClient
         $result = $response->getBody()->getContents();
         $arrayResults = json_decode($result, true);
 
-        return [
-            "results" => $arrayResults["response"]["docs"],
-        ];
+        return $arrayResults;
     }
 }
